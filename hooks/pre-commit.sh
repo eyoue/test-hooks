@@ -1,1 +1,1 @@
-echo "TEST" && exit 1
+echo "PRE COMMIT" || exit 1
