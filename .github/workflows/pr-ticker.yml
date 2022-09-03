@@ -4,6 +4,8 @@ on:
   pull_request:
     types: [opened]
     branches: [develop,stage,master]
+    paths:
+      - 'test-1/**'
 
 jobs:
   update_pr:
