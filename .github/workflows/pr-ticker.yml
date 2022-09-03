@@ -3,7 +3,7 @@ name: Find ticker
 on:
   pull_request:
     types: [opened]
-    branches: [develop,stage,master]
+    branches: [develop]
     paths:
       - 'test-1/**'
 
