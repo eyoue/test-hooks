@@ -16,8 +16,8 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "sh ./hooks/branch-name.sh",
-      "pre-push": "sh ./hooks/branch-name.sh"
+      "pre-commit": "sh ./.github/hooks/branch-name.sh",
+      "pre-push": "sh ./.github/hooks/branch-name.sh"
     }
   }
 }
