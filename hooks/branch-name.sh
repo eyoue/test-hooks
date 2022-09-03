@@ -11,9 +11,9 @@ then
   echo "\n🚫 Branch name should not have any ascii and upper case letters, please rename your branch name.\n" && exit 1
 fi
 
-validDevelopBranchRegex='^((bugfix|feature|)\/[a-zA-Z0-9\-]+)$'
-validStageBranchRegex='^((hotfix|release|)\/[a-zA-Z0-9\-]+)$'
-validMasterBranchRegex='^((hotfix|release|)\/[a-zA-Z0-9\-]+)$'
+validDevelopBranchRegex='^((bugfix|feature)\/[a-zA-Z0-9\-]+)$'
+validStageBranchRegex='^((hotfix|release)\/[a-zA-Z0-9\-]+)$'
+validMasterBranchRegex='^((hotfix|release)\/[a-zA-Z0-9\-]+)$'
 
 
 if [[ $branchName == 'develop' && ! $branchName =~ validDevelopBranchRegex ]]; then
