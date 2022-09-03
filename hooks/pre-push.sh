@@ -1,1 +1,1 @@
-echo "PRE PUSH" && exit 1
+echo "PRE PUSH" || exit 1
